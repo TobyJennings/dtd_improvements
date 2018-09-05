@@ -1,0 +1,62 @@
+Started GET "/" for 127.0.0.1 at 2018-07-19 15:36:45 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/toby.jennings/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/toby.jennings/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (4.3ms)
+Completed 200 OK in 251ms (Views: 13.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-19 15:39:42 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/toby.jennings/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/toby.jennings/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 144ms (Views: 10.0ms)
+
+
+Started GET "/summary/index" for 127.0.0.1 at 2018-07-19 15:39:49 +0100
+Processing by SummaryController#index as HTML
+  Rendering summary/index.html.erb within layouts/application
+  Rendered summary/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 756ms (Views: 753.9ms)
+
+
+Started GET "/summary/index" for 127.0.0.1 at 2018-07-19 15:40:32 +0100
+Processing by SummaryController#index as HTML
+  Rendering summary/index.html.erb within layouts/application
+  Rendered summary/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 22.5ms)
+
+
+Started GET "/summary/index" for 127.0.0.1 at 2018-07-19 15:42:23 +0100
+Processing by SummaryController#index as HTML
+  Rendering summary/index.html.erb within layouts/application
+  Rendered summary/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 19.5ms)
+
+
+Started GET "/summary/index" for 127.0.0.1 at 2018-07-19 15:45:33 +0100
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/summary/index" for 127.0.0.1 at 2018-07-19 15:45:44 +0100
+Processing by SummaryController#index as HTML
+  Rendering summary/index.html.erb within layouts/application
+  Rendered summary/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 21.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-19 15:45:48 +0100
+Processing by SummaryController#index as HTML
+  Rendering summary/index.html.erb within layouts/application
+  Rendered summary/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 30.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-19 15:45:50 +0100
+Processing by SummaryController#index as HTML
+  Rendering summary/index.html.erb within layouts/application
+  Rendered summary/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 25.5ms)
+
+
