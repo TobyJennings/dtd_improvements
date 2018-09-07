@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'summary/index'
+  get 'resources/view'
 
   root 'summary#index'
 
