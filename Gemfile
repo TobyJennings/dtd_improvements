@@ -32,6 +32,10 @@ gem 'jbuilder', '~> 2.5'
 # Add RuboCop for teh Rails app
 gem 'rubocop'
 
+gem 'jquery-rails'
+
+gem 'bootstrap'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
