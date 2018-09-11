@@ -464,3 +464,21 @@ Processing by SummaryController#index as HTML
 Completed 200 OK in 663ms (Views: 344.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-09-11 16:16:30 +0100
+Processing by SummaryController#index as HTML
+  Rendering summary/index.html.erb within layouts/application
+  Rendered summary/index.html.erb within layouts/application (2013.1ms)
+Completed 500 Internal Server Error in 3263ms
+
+
+  
+ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+    4:     <title>DtdImprovements</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3834054872825231758_70272556601920'
