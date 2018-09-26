@@ -464,3 +464,24 @@ Processing by SummaryController#index as HTML
 Completed 200 OK in 663ms (Views: 344.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-09-11 08:37:22 +0100
+Processing by SummaryController#index as HTML
+  Rendering summary/index.html.erb within layouts/application
+  Rendered summary/index.html.erb within layouts/application (302.9ms)
+Completed 200 OK in 1256ms (Views: 407.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-26 14:19:58 +0100
+Processing by SummaryController#index as HTML
+Started GET "/" for 127.0.0.1 at 2018-09-26 14:19:58 +0100
+Processing by SummaryController#index as HTML
+  Rendering summary/index.html.erb within layouts/application
+  Rendering summary/index.html.erb within layouts/application
+  Rendered summary/index.html.erb within layouts/application (1059.5ms)
+Completed 200 OK in 2532ms (Views: 1546.6ms)
+
+
+  Rendered summary/index.html.erb within layouts/application (5371.2ms)
+Completed 200 OK in 6424ms (Views: 5442.5ms)
+
+
